@@ -108,6 +108,172 @@
       {
         "Calibration": [
           [
+            30,
+            1084
+          ],
+          [
+            40,
+            1288
+          ],
+          [
+            50,
+            1572
+          ],
+          [
+            60,
+            1852
+          ],
+          [
+            70,
+            2145
+          ],
+          [
+            80,
+            2436
+          ],
+          [
+            90,
+            2731
+          ],
+          [
+            100,
+            2976
+          ]
+        ],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - NVIDIA GeForce RTX 3080 Ti",
+        "NickName": "Control 1 - NVIDIA GeForce RTX 3080 Ti",
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
+          "IsHidden": false,
+          "Name": "Fan 1 - NVIDIA GeForce RTX 3080 Ti",
+          "NickName": "Control 1 - NVIDIA GeForce RTX 3080 Ti"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 80,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "GPU Curve",
+          "OneWayHysteresis": false,
+          "Points": [
+            "20,0",
+            "45,20",
+            "60,40",
+            "70,60",
+            "83,80"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            1000
+          ],
+          [
+            30,
+            1008
+          ],
+          [
+            40,
+            1383
+          ],
+          [
+            50,
+            1752
+          ],
+          [
+            60,
+            2127
+          ],
+          [
+            70,
+            2506
+          ],
+          [
+            80,
+            2874
+          ],
+          [
+            90,
+            3253
+          ],
+          [
+            100,
+            3538
+          ]
+        ],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Control 2 - NVIDIA GeForce RTX 3080 Ti",
+        "NickName": "Control 2 - NVIDIA GeForce RTX 3080 Ti",
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
+          "IsHidden": false,
+          "Name": "Fan 2 - NVIDIA GeForce RTX 3080 Ti",
+          "NickName": "Control 2 - NVIDIA GeForce RTX 3080 Ti"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 80,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "GPU Curve",
+          "OneWayHysteresis": false,
+          "Points": [
+            "20,0",
+            "45,20",
+            "60,40",
+            "70,60",
+            "83,80"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
             0,
             0
           ],
@@ -273,172 +439,6 @@
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
-      },
-      {
-        "Calibration": [
-          [
-            30,
-            1084
-          ],
-          [
-            40,
-            1288
-          ],
-          [
-            50,
-            1572
-          ],
-          [
-            60,
-            1852
-          ],
-          [
-            70,
-            2145
-          ],
-          [
-            80,
-            2436
-          ],
-          [
-            90,
-            2731
-          ],
-          [
-            100,
-            2976
-          ]
-        ],
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "Control 1 - NVIDIA GeForce RTX 3080 Ti",
-        "NickName": "Control 1 - NVIDIA GeForce RTX 3080 Ti",
-        "PairedFanSensor": {
-          "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
-          "IsHidden": false,
-          "Name": "Fan 1 - NVIDIA GeForce RTX 3080 Ti",
-          "NickName": "Control 1 - NVIDIA GeForce RTX 3080 Ti"
-        },
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "CommandMode": 0,
-          "IgnoreHysteresisAtLimits": true,
-          "IsHidden": false,
-          "MaximumCommand": 80,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
-          "Name": "GPU Curve",
-          "OneWayHysteresis": false,
-          "Points": [
-            "20,0",
-            "45,20",
-            "60,40",
-            "70,60",
-            "83,80"
-          ],
-          "SelectedHysteresis": 2.0,
-          "SelectedResponseTime": 1,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          }
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": [
-          [
-            0,
-            1000
-          ],
-          [
-            30,
-            1008
-          ],
-          [
-            40,
-            1383
-          ],
-          [
-            50,
-            1752
-          ],
-          [
-            60,
-            2127
-          ],
-          [
-            70,
-            2506
-          ],
-          [
-            80,
-            2874
-          ],
-          [
-            90,
-            3253
-          ],
-          [
-            100,
-            3538
-          ]
-        ],
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "Control 2 - NVIDIA GeForce RTX 3080 Ti",
-        "NickName": "Control 2 - NVIDIA GeForce RTX 3080 Ti",
-        "PairedFanSensor": {
-          "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
-          "IsHidden": false,
-          "Name": "Fan 2 - NVIDIA GeForce RTX 3080 Ti",
-          "NickName": "Control 2 - NVIDIA GeForce RTX 3080 Ti"
-        },
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "CommandMode": 0,
-          "IgnoreHysteresisAtLimits": true,
-          "IsHidden": false,
-          "MaximumCommand": 80,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
-          "Name": "GPU Curve",
-          "OneWayHysteresis": false,
-          "Points": [
-            "20,0",
-            "45,20",
-            "60,40",
-            "70,60",
-            "83,80"
-          ],
-          "SelectedHysteresis": 2.0,
-          "SelectedResponseTime": 1,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          }
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
       }
     ],
     "CustomSensors": [],
@@ -447,25 +447,22 @@
         "CommandMode": 0,
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
-        "MaximumCommand": 75,
-        "MaximumTemperature": 80,
-        "MinimumTemperature": 0,
-        "Name": "SSD Curve",
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "Name": "CPU Curve",
         "OneWayHysteresis": false,
         "Points": [
-          "35,10",
-          "40,30",
-          "50,50",
-          "60,65",
-          "70,75"
+          "40,20",
+          "80,80"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
-          "Identifier": "/nvme/0/temperature/0",
+          "Identifier": "/amdcpu/0/temperature/2",
           "IsHidden": false,
-          "Name": "Temperature",
-          "NickName": "SSD"
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "CPU Core"
         }
       },
       {
@@ -492,6 +489,31 @@
           "Name": "GPU",
           "NickName": "GPU"
         }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 75,
+        "MaximumTemperature": 80,
+        "MinimumTemperature": 0,
+        "Name": "SSD Curve",
+        "OneWayHysteresis": false,
+        "Points": [
+          "35,10",
+          "40,30",
+          "50,50",
+          "60,65",
+          "70,75"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/nvme/0/temperature/0",
+          "IsHidden": false,
+          "Name": "Temperature",
+          "NickName": "SSD"
+        }
       }
     ],
     "FanSensors": [
@@ -512,12 +534,6 @@
         "IsHidden": true,
         "Name": "System Fan #1",
         "NickName": "System Fan #1"
-      },
-      {
-        "Identifier": "/lpc/nct6687d/fan/3",
-        "IsHidden": false,
-        "Name": "System Fan #2",
-        "NickName": "SSD Fan"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/4",
@@ -554,6 +570,12 @@
         "IsHidden": false,
         "Name": "Fan 2 - NVIDIA GeForce RTX 3080 Ti",
         "NickName": "Control 2 - NVIDIA GeForce RTX 3080 Ti"
+      },
+      {
+        "Identifier": "/lpc/nct6687d/fan/3",
+        "IsHidden": false,
+        "Name": "System Fan #2",
+        "NickName": "SSD Fan"
       }
     ],
     "HideCalibration": false,
