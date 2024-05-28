@@ -45,7 +45,7 @@
             2362
           ]
         ],
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/0",
         "IsHidden": false,
@@ -140,7 +140,7 @@
             2976
           ]
         ],
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/0",
         "IsHidden": false,
@@ -225,7 +225,7 @@
             3538
           ]
         ],
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/1",
         "IsHidden": false,
@@ -357,7 +357,7 @@
             "Identifier": "/nvme/0/temperature/0",
             "IsHidden": false,
             "Name": "Temperature",
-            "NickName": "SSD"
+            "NickName": "Temperature"
           }
         },
         "SelectedOffset": 0,
@@ -453,8 +453,11 @@
         "Name": "CPU Curve",
         "OneWayHysteresis": false,
         "Points": [
-          "40,20",
-          "80,80"
+          "20,0",
+          "45,20",
+          "60,40",
+          "70,60",
+          "83,80"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
@@ -462,7 +465,7 @@
           "Identifier": "/amdcpu/0/temperature/2",
           "IsHidden": false,
           "Name": "Core (Tctl/Tdie)",
-          "NickName": "CPU Core"
+          "NickName": "Core (Tctl/Tdie)"
         }
       },
       {
@@ -512,7 +515,7 @@
           "Identifier": "/nvme/0/temperature/0",
           "IsHidden": false,
           "Name": "Temperature",
-          "NickName": "SSD"
+          "NickName": "Temperature"
         }
       }
     ],
@@ -587,20 +590,7 @@
     "ShowHiddenCards": false,
     "SyncThemeWithWindows": true,
     "SyncTrayIconColorWithWindows": true,
-    "TemperatureSensors": [
-      {
-        "Identifier": "/amdcpu/0/temperature/2",
-        "IsHidden": false,
-        "Name": "Core (Tctl/Tdie)",
-        "NickName": "CPU Core"
-      },
-      {
-        "Identifier": "/nvme/0/temperature/0",
-        "IsHidden": false,
-        "Name": "Temperature",
-        "NickName": "SSD"
-      }
-    ],
+    "TemperatureSensors": [],
     "TrayIconColor": "#FFFFFFFF",
     "TrayIcons": []
   },
