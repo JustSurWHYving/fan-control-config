@@ -60,8 +60,8 @@
           "Name": "CPU Fan",
           "NickName": "CPU Fan"
         },
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "SelectedCommandStepDown": 5.0,
+        "SelectedCommandStepUp": 5.0,
         "SelectedFanCurve": null,
         "SelectedOffset": 0,
         "SelectedStart": 0,
@@ -140,7 +140,7 @@
             2976
           ]
         ],
-        "Enable": true,
+        "Enable": false,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/0",
         "IsHidden": false,
@@ -225,7 +225,7 @@
             3538
           ]
         ],
-        "Enable": true,
+        "Enable": false,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/1",
         "IsHidden": false,
@@ -333,8 +333,8 @@
           "Name": "System Fan #2",
           "NickName": "SSD Fan"
         },
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "SelectedCommandStepDown": 5.0,
+        "SelectedCommandStepUp": 5.0,
         "SelectedFanCurve": {
           "CommandMode": 0,
           "IgnoreHysteresisAtLimits": true,
@@ -346,10 +346,11 @@
           "OneWayHysteresis": false,
           "Points": [
             "35,10",
-            "40,30",
-            "50,50",
-            "60,65",
-            "70,75"
+            "40.55368969521956,20.721333333333334",
+            "49.71907467277692,32.92133333333334",
+            "60.76775793339401,43.12133333333334",
+            "70.30980256756332,49.12133333333334",
+            "80,60"
           ],
           "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
@@ -457,7 +458,8 @@
           "45,20",
           "60,40",
           "70,60",
-          "83,80"
+          "83,80",
+          "90,100"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
@@ -504,10 +506,11 @@
         "OneWayHysteresis": false,
         "Points": [
           "35,10",
-          "40,30",
-          "50,50",
-          "60,65",
-          "70,75"
+          "40.55368969521956,20.721333333333334",
+          "49.71907467277692,32.92133333333334",
+          "60.76775793339401,43.12133333333334",
+          "70.30980256756332,49.12133333333334",
+          "80,60"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
