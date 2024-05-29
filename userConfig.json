@@ -60,9 +60,35 @@
           "Name": "CPU Fan",
           "NickName": "CPU Fan"
         },
-        "SelectedCommandStepDown": 5.0,
-        "SelectedCommandStepUp": 5.0,
-        "SelectedFanCurve": null,
+        "SelectedCommandStepDown": 10.0,
+        "SelectedCommandStepUp": 7.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "CPU Curve (ECO)",
+          "OneWayHysteresis": false,
+          "Points": [
+            "20,0",
+            "45,20",
+            "60,35",
+            "70,45",
+            "80,60",
+            "84.97379076556075,80.69511111111112",
+            "90,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/amdcpu/0/temperature/2",
+            "IsHidden": false,
+            "Name": "Core (Tctl/Tdie)",
+            "NickName": "Core (Tctl/Tdie)"
+          }
+        },
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
@@ -333,7 +359,7 @@
           "Name": "System Fan #2",
           "NickName": "SSD Fan"
         },
-        "SelectedCommandStepDown": 5.0,
+        "SelectedCommandStepDown": 10.0,
         "SelectedCommandStepUp": 5.0,
         "SelectedFanCurve": {
           "CommandMode": 0,
@@ -451,13 +477,40 @@
         "MaximumCommand": 100,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
-        "Name": "CPU Curve",
+        "Name": "CPU Curve (ECO)",
         "OneWayHysteresis": false,
         "Points": [
           "20,0",
           "45,20",
-          "60,40",
-          "70,60",
+          "60,35",
+          "70,45",
+          "80,60",
+          "84.97379076556075,80.69511111111112",
+          "90,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2",
+          "IsHidden": false,
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "Core (Tctl/Tdie)"
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "Name": "CPU Curve (Balanced)",
+        "OneWayHysteresis": false,
+        "Points": [
+          "20,0",
+          "45,20",
+          "62,35",
+          "75,55",
           "83,80",
           "90,100"
         ],
@@ -586,7 +639,7 @@
     ],
     "HideCalibration": false,
     "HideFanSpeedCards": false,
-    "HorizontalUIOrientation": true,
+    "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF2C2C2D",
     "SecondaryColor": "#FFFFFFFF",
     "SelectedTheme": "Inherit",
