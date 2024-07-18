@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "191",
+  "__VERSION__": "196",
   "Main": {
     "Controls": [
       {
@@ -61,24 +61,23 @@
           "NickName": "CPU Fan"
         },
         "SelectedCommandStepDown": 10.0,
-        "SelectedCommandStepUp": 7.0,
+        "SelectedCommandStepUp": 3.0,
         "SelectedFanCurve": {
           "CommandMode": 0,
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
           "MaximumCommand": 100,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
-          "Name": "CPU Curve (ECO)",
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
+          "Name": "CPU Curve (Balanced)",
           "OneWayHysteresis": false,
           "Points": [
             "20,0",
-            "45,20",
-            "60,35",
-            "70,45",
-            "80,60",
-            "84.97379076556075,80.69511111111112",
-            "90,100"
+            "42.9,22.561777777777777",
+            "61.6,48.42844444444445",
+            "73,65",
+            "85,84.96177777777778",
+            "95,100"
           ],
           "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
@@ -188,8 +187,8 @@
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
           "MaximumCommand": 80,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
           "Name": "GPU Curve",
           "OneWayHysteresis": false,
           "Points": [
@@ -273,8 +272,8 @@
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
           "MaximumCommand": 80,
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
           "Name": "GPU Curve",
           "OneWayHysteresis": false,
           "Points": [
@@ -366,17 +365,17 @@
           "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
           "MaximumCommand": 75,
-          "MaximumTemperature": 80,
-          "MinimumTemperature": 0,
+          "MaximumTemperature": 80.0,
+          "MinimumTemperature": 0.0,
           "Name": "SSD Curve",
           "OneWayHysteresis": false,
           "Points": [
             "35,10",
             "40.55368969521956,20.721333333333334",
             "49.71907467277692,32.92133333333334",
-            "60.76775793339401,43.12133333333334",
-            "70.30980256756332,49.12133333333334",
-            "80,60"
+            "60.13999183904077,47.321333333333335",
+            "70.18424934869267,57.52133333333334",
+            "79.9,65.12133333333334"
           ],
           "SelectedHysteresis": 2.0,
           "SelectedResponseTime": 1,
@@ -469,14 +468,15 @@
       }
     ],
     "CustomSensors": [],
+    "Fahrenheit": false,
     "FanCurves": [
       {
         "CommandMode": 0,
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
         "MaximumCommand": 100,
-        "MaximumTemperature": 120,
-        "MinimumTemperature": 20,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
         "Name": "CPU Curve (ECO)",
         "OneWayHysteresis": false,
         "Points": [
@@ -502,16 +502,42 @@
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
         "MaximumCommand": 100,
-        "MaximumTemperature": 120,
-        "MinimumTemperature": 20,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
         "Name": "CPU Curve (Balanced)",
         "OneWayHysteresis": false,
         "Points": [
           "20,0",
-          "45,20",
-          "62,35",
-          "75,55",
-          "83,80",
+          "42.9,22.561777777777777",
+          "61.6,48.42844444444445",
+          "73,65",
+          "85,84.96177777777778",
+          "95,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2",
+          "IsHidden": false,
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "Core (Tctl/Tdie)"
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
+        "Name": "CPU Curve (Performance)",
+        "OneWayHysteresis": false,
+        "Points": [
+          "20,0",
+          "43.1,29.76177777777778",
+          "60.49091308578423,60.42844444444445",
+          "70.22128754825951,79.09511111111112",
+          "79.9516620107348,89.76177777777778",
           "90,100"
         ],
         "SelectedHysteresis": 2.0,
@@ -528,8 +554,8 @@
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
         "MaximumCommand": 80,
-        "MaximumTemperature": 120,
-        "MinimumTemperature": 20,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
         "Name": "GPU Curve",
         "OneWayHysteresis": false,
         "Points": [
@@ -553,17 +579,17 @@
         "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
         "MaximumCommand": 75,
-        "MaximumTemperature": 80,
-        "MinimumTemperature": 0,
+        "MaximumTemperature": 80.0,
+        "MinimumTemperature": 0.0,
         "Name": "SSD Curve",
         "OneWayHysteresis": false,
         "Points": [
           "35,10",
           "40.55368969521956,20.721333333333334",
           "49.71907467277692,32.92133333333334",
-          "60.76775793339401,43.12133333333334",
-          "70.30980256756332,49.12133333333334",
-          "80,60"
+          "60.13999183904077,47.321333333333335",
+          "70.18424934869267,57.52133333333334",
+          "79.9,65.12133333333334"
         ],
         "SelectedHysteresis": 2.0,
         "SelectedResponseTime": 1,
@@ -642,15 +668,18 @@
     "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF2C2C2D",
     "SecondaryColor": "#FFFFFFFF",
-    "SelectedTheme": "Inherit",
+    "SelectedTheme": "",
     "ShowHiddenCards": false,
     "SyncThemeWithWindows": true,
     "SyncTrayIconColorWithWindows": true,
     "TemperatureSensors": [],
-    "TrayIconColor": "#FFFFFFFF",
+    "TrayIconColor": null,
     "TrayIcons": []
   },
   "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": false
+    },
     "DisabledPlugins": [],
     "DisableStorageSensors": false,
     "LibreHardwareMonitorSettings": {
